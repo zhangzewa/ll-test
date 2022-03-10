@@ -1,35 +1,23 @@
-# Windows:
-
-Thumbs.db
-
-ehthumbs.db
-
-Desktop.ini
-
- 
-
-# Python:
-
-*.py[cod]
-
-*.so
-
-*.egg
-
-*.egg-info
-
-dist
-
-build
-
- 
-
-# My configurations:
-
-db.ini
-
-deploy_key_rsa
-
+# IntelliJ project files
+.idea
+.gradle
+*.iml
+target/ 
+#忽略根目录下所有target文件夹
+*/target/
+.settings
+.classpath
+.project
 *.class
 
-local.properties
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
